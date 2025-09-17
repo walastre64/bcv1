@@ -6,7 +6,7 @@ $CODUSD = 'USD';
 $CODUSDWALLET = 'WALLET';
 
 $usuarioBD = "sa";
-$contrasenaBD = "Ec14312183.-";
+$contrasenaBD = "";
 //$nombreBaseDeDatos = "VAD10";
 $nombreBaseDeDatos = "VAD10_PRUEBAS_F";
 # Puede ser 127.0.0.1 o el nombre de tu equipo; o la IP de un servidor remoto
@@ -16,7 +16,7 @@ try {
     $base_de_datos->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     } catch (Exception $e) {
-    echo "Ocurrió un error con la base de datos: " . $e->getMessage();
+    echo "OcurriÃ³ un error con la base de datos: " . $e->getMessage();
 }
 
 ////////////////////////////////////////////////////////////////////////////
